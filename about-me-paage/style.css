@@ -235,7 +235,10 @@ main .personal-info-text .proffessional-info-text,
 main .personal-info-text .hobbies-info{
     line-height: 30px;
     padding-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #607B96;
+    /* margin: 0 0 0 10px; */
 }
 main .personal-info-text .wraping-information{
     display: flex;
