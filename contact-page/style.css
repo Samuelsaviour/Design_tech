@@ -220,8 +220,11 @@ main .personal-info-text{
     color: #fff;
     margin-bottom: 20px;
  }
+ .form-con{
+    width: 100%;
+ }
  form{
-    width: 90%;
+    width: 100%;
     margin:50px auto 0 auto;
  }
 form label{
