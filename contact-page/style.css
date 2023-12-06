@@ -16,12 +16,14 @@ body{
     background-color: var(--primary-color);
     font-family: 'Cedarville Cursive', cursive;
     font-family: 'Fira Code', monospace;
+    /* height: 100vh; */
     
      
 }
 .header{
     display: flex;
-    position: relative;
+    position: fixed;
+    top: 0;
     align-items: center;
     width: 100%;
     padding: 15px 25px ;
@@ -114,9 +116,11 @@ width: 100%;
 }
 
 main{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     margin-bottom: 100px;
+    margin-top: 100px;
+    margin-top: 55px;
 }
 main .details{
  width: 100%;
@@ -140,6 +144,7 @@ main .details .info-list .profession{
  display: flex;
  flex-direction: column;
  width: 100%;
+ 
 }
  
 main .details .info-list .profession .link-it{
@@ -225,12 +230,13 @@ main .personal-info-text{
  }
  form{
     width: 100%;
-    margin:50px auto 0 auto;
+    padding: 0 50px;
+    margin:0px auto 0 auto;
  }
 form label{
     font-size: 16px;
     color: #607B96;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     text-decoration: none;
     font-weight: 500;
 }
@@ -245,7 +251,7 @@ form input{
 form textarea{
     width: 100%;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 10px 0;
     border-radius: 8px;
     border: 1px solid #1E2D3D;
     background: #011627; 
@@ -357,15 +363,18 @@ main .carosel-wrap{
     }
     main{
         display: flex;
+        height: 300px;
+        border-right:1px solid  red;
         
     }
     main .details{
         width: 25.3%;
+        height: 90vh;
         border-right:1px solid  #1E2D3D;
        }
        main form{
-        padding: 0 100px;
-        width: 70%;
+        padding: 20px 50px;
+        width: 50%;
        }
        main .carosel-wrap{
         width: 40%;
