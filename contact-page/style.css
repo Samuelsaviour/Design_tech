@@ -27,7 +27,7 @@ body{
     align-items: center;
     width: 100%;
     padding: 15px 25px ;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     border: 1px solid #1E2D3D;
    
 }
@@ -263,7 +263,9 @@ font-size: 13px;
 border-radius: 8px;
 border: 1px solid #1E2D3D;
 background: #1C2B3A;;
-padding: 10px 14px;
+padding: 10px 25px;
+cursor: pointer;
+
 }
 .locate-me{
     display: flex;
@@ -365,38 +367,39 @@ main .carosel-wrap{
     main{
         display: flex;
         height: 300px;
-        border-right:1px solid  red;
+        
         
     }
     main .details{
-        width: 25.3%;
+        width: 20.3%;
         height: 90vh;
         border-right:1px solid  #1E2D3D;
        }
-       .form-con{
-        width: 50%;
+      main .form-con{
+        width: 40%;
         border-right:1px solid #1E2D3D ;
+        height: 90vh;
      }
        main form{
         padding: 20px 50px;
         width: 100%;
        }
-       main .carosel-wrap{
+       main .code-snipet{
         width: 40%;
-        padding: 80px 0 0 1px;
+        padding: 80px 50px 0 50px;
         display: flex;
-        gap: 10px;
+        gap: 40px;
         flex-direction: row;
         
        }
        main .carosel-wrap .number-con {
 
        }
-       main .carosel-wrap .number-con .mum1{
+       main .code-snipet .num{
      color: #607B96;
        }
-       main .carosel-wrap .code-list{
-        line-height: 30px;
+       main .code-snipet .code{
+        line-height: 40px;
        }
        .code-list{
         color: #5565E8;
